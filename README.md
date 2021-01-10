@@ -12,9 +12,9 @@
 ### インストール手順
 #### 環境構築
 以下を参考にしてROSの環境構築とワークスペースを作成する。
-[ROSのインストール](http://wiki.ros.org/melodic/Installation)
-[ワークスペースの作成](http://wiki.ros.org/ja/catkin/Tutorials/create_a_workspace)
-[cv_cameraのインストール](http://wiki.ros.org/cv_camera)
+* [ROSのインストール](http://wiki.ros.org/melodic/Installation)
+* [ワークスペース*の作成](http://wiki.ros.org/ja/catkin/Tutorials/create_a_workspace)
+* [cv_cameraのインストール](http://wiki.ros.org/cv_camera)
 #### クローン
 レポジトリをクローン
 
