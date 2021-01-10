@@ -22,10 +22,6 @@
 $git clone https://github.com/Takagon/HumanDetectionSecurityCamera.git
 ```
 #### ビルド
-roscoreを起動
-```
-$roscore
-```
 クローンしてきたパッケージをビルド
 ```
 $cd ~/catkin_ws
@@ -33,6 +29,10 @@ $catkin_make
 $source ~/.bashrc
 ```
 ### 実行
+roscoreを起動
+```
+$roscore
+```
 カメラをパソコンに接続しcv_camera_nodeを起動する。
 ```
 $rosrun cv_camera cv_camera_node
