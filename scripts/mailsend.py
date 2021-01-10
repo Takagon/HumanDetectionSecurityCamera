@@ -12,8 +12,8 @@ from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
 
 def sendGmailAttach():
-    sender, password = "takagon1204122@gmail.com", "takami22"
-    to = 'takagon1204122@gmail.com'
+    sender, password = "hoge@gmail.com", "hoge"
+    to = 'home@gmail.com'
     sub = 'detected an invader'
     body = 'invader image'
     host, port = 'smtp.gmail.com', 587
@@ -26,7 +26,7 @@ def sendGmailAttach():
     body = MIMEText(body)
     msg.attach(body)
 
-    attach_file = {'name': 'face_dst.jpg', 'path': '/home/takagon/robosys_ws/src/robosys_pkg/src/faceimages/face_dst.jpg'}
+    attach_file = {'name': 'face_dst.jpg', 'path': '/robosys_ws/src/robosys_pkg/src/faceimages/face_dst.jpg'}
     attachment = MIMEBase('image', 'png')
     file = open(attach_file['path'], 'rb+')
     attachment.set_payload(file.read())
